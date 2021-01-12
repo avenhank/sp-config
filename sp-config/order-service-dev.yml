@@ -16,12 +16,12 @@ eureka:
 feign:  hystrix:    enabled: true
 management:  endpoints:    web:      exposure:        include: hystrix.stream---
 spring:
-  profiles: item1
+  profiles: order1
 server:
   port: 8201
   
 ---
 spring:
-  profiles: item2
+  profiles: order2
 server:
   port: 8202       
